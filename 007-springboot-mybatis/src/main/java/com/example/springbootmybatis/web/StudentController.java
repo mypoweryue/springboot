@@ -21,15 +21,4 @@ public class StudentController {
 
         return student;
     }
-    @RequestMapping(value = "/springBoot/student2")
-    public @ResponseBody
-    Object student2() {
-
-        Student student = studentService.queryStudentById(1);
-
-        return student;
-    }
-
-
-
 }
